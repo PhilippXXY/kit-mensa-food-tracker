@@ -1,0 +1,5 @@
+mealDate;mealName;mealPrice;mealType;mealKcal;mealProteins;mealCarbs;mealFat
+2023-06-14;Zartweizen-Kartoffel-Gratin mit Karotten;3.3;VEGAN;566.0;28.0;79.0;13.0
+2023-06-14;Blattsalat Zucchinisalat;0.9;VEGAN;181.0;4.0;15.0;9.0
+2023-06-21;Chili con Carne mit Bohnen, Mais und Paprika dazu Baguettebrötchen;3.2;BEEF;703.0;52.0;85.0;11.0
+2023-06-21;Erdbeerjoghurt;0.85;VEGETARIAN;134.0;6.0;16.0;4.0
