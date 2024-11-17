@@ -1,17 +1,19 @@
 # KIT Mensa Food Tracker
 
+## :blue_book: Introduction
+
 The **KIT Mensa Food Tracker** is a Java-based application designed to help users track their meals from the [Karlsruhe Institute of Technology Mensa](https://kit.edu). It provides a graphical user interface (GUI) to view the meal plan, meal history, and an overview of the nutritional information of the selected meals.
 This project was developed as an assignment during the lecture of of **Java Network Programming (ProkSy)**.
 For further interest in the exakt task, please refer to the corresponding [PDFs](./task/).
 
-## Features
+## :star: Features
 
 - **Meal Plan View**: Displays the available meals for the selected date.
 - **Meal History**: Shows the list of meals that the user has selected.
 - **Nutritional Overview**: Provides cumulative nutritional information based on the selected meals.
 - **Data Persistence**: Reads and writes meal data to a file to maintain state between sessions.
 
-## Installation
+## :package: Installation
 
 1. **Clone the repository**:
     ```sh
@@ -32,7 +34,7 @@ For further interest in the exakt task, please refer to the corresponding [PDFs]
 
 5. **Build and run the project**.
 
-## Usage
+## :rocket: Usage
 
 1. **Run the application**:
     - The main entry point is the `MensaMain` class.
@@ -48,7 +50,7 @@ For further interest in the exakt task, please refer to the corresponding [PDFs]
 4. **View nutritional information**:
     - The overview section provides cumulative nutritional information based on your meal history.
 
-## Project Structure
+## :file_folder: Project Structure
 
 - `MensaMain.java`: The main class that initializes and runs the application.
 - `MensaGUI.java`: The base class for the GUI, including the menu bar.
@@ -57,10 +59,6 @@ For further interest in the exakt task, please refer to the corresponding [PDFs]
 - `MensaGUIOverview.java`: The GUI for displaying the nutritional overview.
 - `MensaData.java`: The class representing meal data and handling data fetching and storage.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
+## :clap: Acknowledgements
 
 - This project uses the `KITMensaScraper` library by [Ferdinand Mütsch](https://github.com/muety) to fetch meal data from the KIT Mensa.
